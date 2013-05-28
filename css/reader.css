@@ -1,0 +1,19 @@
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+  display: -webkit-box;
+}
+
+.colA, .colC {
+  display: -webkit-box;
+  -webkit-flex-box: 1;
+  -webkit-box-orient: vertical;
+}
+.row.glue {
+  -webkit-box-flex: 1;
+} 
+.row {
+  -webkit-box-align: center;
+}
